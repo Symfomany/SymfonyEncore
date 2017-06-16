@@ -20,6 +20,9 @@ Directory of your assets in /assets with:
 ```
 npm init
 npm i --save  @symfony/webpack-encore 
+
+To add SASS loader in webpack
+npm i --dev sass-loader node-sass
 ```
 
 
@@ -34,6 +37,9 @@ Recompile assets automatocally when file changes
 
 Compile & Optimize your assets for production
  ./node_modules/.bin/encore production
+ 
+ Bonus: To use HMR on Webpack Server, just:
+ ./node_modules/.bin/encore dev-server
 ```
 
 ### To configure
