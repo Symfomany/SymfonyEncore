@@ -19,7 +19,7 @@ Directory of your assets in /assets with:
 
 ```
 npm init
-npm i -g  @symfony/webpack-encore 
+npm i --save  @symfony/webpack-encore 
 ```
 
 
