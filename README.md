@@ -24,7 +24,6 @@ npm i --save  @symfony/webpack-encore
 
 
 
-
 ### To run
 ```
 Compile asset once
@@ -37,7 +36,11 @@ Compile & Optimize your assets for production
  ./node_modules/.bin/encore production
 ```
 
-
+### To configure
+```
+In this here:
+webpack.config.js
+```
 
 
 
