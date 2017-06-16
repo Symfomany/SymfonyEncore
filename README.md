@@ -4,17 +4,38 @@ Demo of Symfony Encore on Symfony Framework
 =============
 
 
-### Implementation of JS/ES6 with  SASS  built in Webpack**
+#### Implementation of JS/ES6 with  SASS  built in Webpack**
 
 
-![enter image description here](http://projectsquare.io/wp-content/uploads/2016/06/logo-vuejs.png)
+Directory of your assets in /assets with:
 
-Directory /assets with
+-- assets/css
+-- assets/js
+-- assets/img
+-- assets/font
 
---assets/css
---assets/js
+
+### To install
+
+```
+npm init
+npm i -g  @symfony/webpack-encore 
+```
 
 
+
+
+### To run
+```
+Compile asset once
+ ./node_modules/.bin/encore dev
+
+Recompile assets automatocally when file changes
+ ./node_modules/.bin/encore dev --watch
+
+Compile & Optimize your assets for production
+ ./node_modules/.bin/encore production
+```
 
 
 
